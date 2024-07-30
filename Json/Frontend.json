@@ -1,0 +1,344 @@
+{
+    "JavaScript": {
+      "Easy": [
+        {
+          "SNo": 1,
+          "Question": "What are the differences between Java and JavaScript?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What are JavaScript Data Types?"
+        },
+        {
+          "SNo": 3,
+          "Question": "What are undeclared and undefined variables?"
+        },
+        {
+          "SNo": 4,
+          "Question": "What is the ‘this’ keyword in JavaScript?"
+        }
+      ],
+      "Medium": [
+        {
+          "SNo": 1,
+          "Question": "What is the difference between an alert box and a confirmation box?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What is the disadvantage of using innerHTML in JavaScript?"
+        },
+        {
+          "SNo": 3,
+          "Question": "How can the style/class of an element be changed?"
+        },
+        {
+          "SNo": 4,
+          "Question": "How to convert the string of any base to integer in JavaScript?"
+        },
+        {
+          "SNo": 5,
+          "Question": "Explain how to detect the operating system on the client machine?"
+        },
+        {
+          "SNo": 6,
+          "Question": "What are the types of Pop up boxes available in JavaScript?"
+        },
+        {
+          "SNo": 7,
+          "Question": "How would you perform operations on a cookie?"
+        }
+      ],
+      "Hard": [
+        {
+          "SNo": 1,
+          "Question": "What is the difference between Event Capturing and Event Bubbling?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What is the difference between Call and Apply?"
+        },
+        {
+          "SNo": 3,
+          "Question": "What is the Strict mode in JavaScript?"
+        },
+        {
+          "SNo": 4,
+          "Question": "How to explain closures in JavaScript and when to use it?"
+        }
+      ]
+    },
+    "Flutter": {
+      "Easy": [
+        {
+          "SNo": 1,
+          "Question": "Why is Flutter preferred over other mobile app developing tools?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What is the use of Ticker in Flutter?"
+        },
+        {
+          "SNo": 3,
+          "Question": "How would you execute code only in debug mode?"
+        },
+        {
+          "SNo": 4,
+          "Question": "What is the use of Mixins?"
+        }
+      ],
+      "Medium": [
+        {
+          "SNo": 1,
+          "Question": "Write the limitations of flutter."
+        },
+        {
+          "SNo": 2,
+          "Question": "What are different build modes in flutter?"
+        },
+        {
+          "SNo": 3,
+          "Question": "What are the types of widgets present in flutter?"
+        },
+        {
+          "SNo": 4,
+          "Question": "What do you mean by Dart? Write its importance."
+        },
+        {
+          "SNo": 5,
+          "Question": "Explain App state."
+        },
+        {
+          "SNo": 6,
+          "Question": "Write the difference between runApp() and main() in flutter."
+        },
+        {
+          "SNo": 7,
+          "Question": "What do you mean by keys in flutter? When one should use it."
+        }
+      ],
+      "Hard": [
+        {
+          "SNo": 1,
+          "Question": "What is state management?"
+        },
+        {
+          "SNo": 2,
+          "Question": "Explain pubspec.yaml file."
+        },
+        {
+          "SNo": 3,
+          "Question": "How can we create HTTP requests in Flutter?"
+        },
+        {
+          "SNo": 4,
+          "Question": "What do you mean by Null-aware operators?"
+        }
+      ]
+    },
+    
+    "TypeScript": {
+        "Easy": [
+        {
+            "SNo": 1,
+            "Question": "What is meant by contextual typing?"
+        },
+        {
+            "SNo": 2,
+            "Question": "Define static typing."
+        },
+        {
+            "SNo": 3,
+            "Question": "What are getters/setters?"
+        },
+        {
+            "SNo": 4,
+            "Question": "Describe ‘as’ syntax in TypeScript."
+        }
+        ],
+        "Medium": [
+        {
+            "SNo": 1,
+            "Question": "What is Anonymous Function in TypeScript?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What are Mixins?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What is Namespace and how to declare it?"
+        },
+        {
+            "SNo": 4,
+            "Question": "Explain Type Aliases."
+        },
+        {
+            "SNo": 5,
+            "Question": "Explain how TypeScript files can be supported from Node Modules."
+        },
+        {
+            "SNo": 6,
+            "Question": "Explain the Drawbacks of using Declaration Files with TypeScript."
+        },
+        {
+            "SNo": 7,
+            "Question": "What are Distributive Conditional Types?"
+        }
+        ],
+        "Hard": [
+        {
+            "SNo": 1,
+            "Question": "Explain the Awaited Type and Promise Improvements."
+        },
+        {
+            "SNo": 2,
+            "Question": "What is Type Assertion? Explain its types."
+        },
+        {
+            "SNo": 3,
+            "Question": "What is Recursive Type Aliases?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What are the Recent Advancements in TypeScript?"
+        }
+        ]
+    },
+        
+    "ReactJS": {
+        "Easy": [
+        {
+            "SNo": 1,
+            "Question": "What is ReactJS?"
+        },
+        {
+            "SNo": 2,
+            "Question": "Can web browsers read JSX directly?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What is the virtual DOM?"
+        },
+        {
+            "SNo": 4,
+            "Question": "Why use React instead of other frameworks, like Angular?"
+        }
+        ],
+        "Medium": [
+        {
+            "SNo": 1,
+            "Question": "What is the use of render() in React?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What are props in React?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What are the differences between class and functional components?"
+        },
+        {
+            "SNo": 4,
+            "Question": "Explain the lifecycle methods of components."
+        },
+        {
+            "SNo": 5,
+            "Question": "What is a higher-order component in React?"
+        }
+        ],
+        "Hard": [
+        {
+            "SNo": 1,
+            "Question": "What is Redux?"
+        },
+        {
+            "SNo": 2,
+            "Question": "How is Redux different from Flux?"
+        },
+        {
+            "SNo": 3,
+            "Question": "How is React routing different from conventional routing?"
+        },
+        {
+            "SNo": 4,
+            "Question": "Explain the use of CSS modules in React."
+        }
+        ]
+    },
+    
+    "NextJS": {
+        "Easy": [
+        {
+            "SNo": 1,
+            "Question": "What is Next JS?"
+        },
+        {
+            "SNo": 2,
+            "Question": "How Next is different from other JavaScript frameworks?"
+        },
+        {
+            "SNo": 3,
+            "Question": "Mention some features of Next JS."
+        },
+        {
+            "SNo": 4,
+            "Question": "What is the process of installing Next JS?"
+        }
+        ],
+        "Medium": [
+        {
+            "SNo": 1,
+            "Question": "What do you mean by SSR?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What are the benefits of using Next JS?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What is DOM?"
+        },
+        {
+            "SNo": 4,
+            "Question": "How does Next JS handle client-side navigation?"
+        },
+        {
+            "SNo": 5,
+            "Question": "Explain the concept of dynamic routing in Next JS."
+        },
+        {
+            "SNo": 6,
+            "Question": "Is Next JS backend, frontend, or full-stack?"
+        },
+        {
+            "SNo": 7,
+            "Question": "What is meant by Styled JSX in Next JS?"
+        }
+        ],
+        "Hard": [
+        {
+            "SNo": 1,
+            "Question": "What is the purpose of the useEffect hook in React, and how does it relate to Next JS?"
+        },
+        {
+            "SNo": 2,
+            "Question": "How do you work with custom server middleware in Next JS?"
+        },
+        {
+            "SNo": 3,
+            "Question": "Explain the concept of “Serverless” deployment in the context of Next JS. How does it work, and what are the advantages?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What is Environment Variables in Next JS?"
+        }
+        ]
+    }
+      
+      
+          
+          
+      
+      
+  }
+  

@@ -1,0 +1,277 @@
+{
+    "JavaScript": {
+      "Easy": [
+        {
+          "SNo": 1,
+          "Question": "What are the differences between Java and JavaScript?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What are JavaScript Data Types?"
+        },
+        {
+          "SNo": 3,
+          "Question": "What are undeclared and undefined variables?"
+        },
+        {
+          "SNo": 4,
+          "Question": "What is the ‘this’ keyword in JavaScript?"
+        }
+      ],
+      "Medium": [
+        {
+          "SNo": 1,
+          "Question": "What is the difference between an alert box and a confirmation box?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What is the disadvantage of using innerHTML in JavaScript?"
+        },
+        {
+          "SNo": 3,
+          "Question": "How can the style/class of an element be changed?"
+        },
+        {
+          "SNo": 4,
+          "Question": "How to convert the string of any base to integer in JavaScript?"
+        },
+        {
+          "SNo": 5,
+          "Question": "Explain how to detect the operating system on the client machine?"
+        },
+        {
+          "SNo": 6,
+          "Question": "What are the types of Pop up boxes available in JavaScript?"
+        },
+        {
+          "SNo": 7,
+          "Question": "How would you perform operations on a cookie?"
+        }
+      ],
+      "Hard": [
+        {
+          "SNo": 1,
+          "Question": "What is the difference between Event Capturing and Event Bubbling?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What is the difference between Call and Apply?"
+        },
+        {
+          "SNo": 3,
+          "Question": "What is the Strict mode in JavaScript?"
+        },
+        {
+          "SNo": 4,
+          "Question": "How to explain closures in JavaScript and when to use it?"
+        }
+      ]
+    },
+    "Python": {
+      "Easy": [
+        {
+          "SNo": 1,
+          "Question": "What is the difference between Python Arrays and lists?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What is __init__?"
+        },
+        {
+          "SNo": 3,
+          "Question": "What is break, continue and pass in Python?"
+        },
+        {
+          "SNo": 4,
+          "Question": "What is the default host and port of Flask?"
+        }
+      ],
+      "Medium": [
+        {
+          "SNo": 1,
+          "Question": "What are the features of Flask Python?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What is the difference between Flask and Django?"
+        },
+        {
+          "SNo": 3,
+          "Question": "What is routing in Flask?"
+        },
+        {
+          "SNo": 4,
+          "Question": "How do you handle cookies in a Flask?"
+        },
+        {
+          "SNo": 5,
+          "Question": "What is Flask-WTF, and what are its characteristics?"
+        },
+        {
+          "SNo": 6,
+          "Question": "How does file uploading work in Flask?"
+        },
+        {
+          "SNo": 7,
+          "Question": "What HTTP methods does Python Flask provide?"
+        }
+      ],
+      "Hard": [
+        {
+          "SNo": 1,
+          "Question": "Explain how one can use one-request database connections in Flask?"
+        },
+        {
+          "SNo": 2,
+          "Question": "How to create a RESTful application in Flask?"
+        },
+        {
+          "SNo": 3,
+          "Question": "Explain Application Context and Request Context in Flask?"
+        },
+        {
+          "SNo": 4,
+          "Question": "How to get a visitor IP address in Flask?"
+        }
+      ]
+    },
+    
+    "GoLang": {
+        "Easy": [
+        {
+            "SNo": 1,
+            "Question": "What is GoLang?"
+        },
+        {
+            "SNo": 2,
+            "Question": "Is it possible to return multiple values from a function in Go?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What are Golang packages?"
+        },
+        {
+            "SNo": 4,
+            "Question": "Is Golang case sensitive or insensitive?"
+        }
+        ],
+        "Medium": [
+        {
+            "SNo": 1,
+            "Question": "What are function closures?"
+        },
+        {
+            "SNo": 2,
+            "Question": "Explain the steps of testing with Golang."
+        },
+        {
+            "SNo": 3,
+            "Question": "Explain Go interfaces. What are they and how do they work?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What are Lvalue and Rvalue in Golang?"
+        },
+        {
+            "SNo": 5,
+            "Question": "How do we perform inheritance with Golang?"
+        },
+        {
+            "SNo": 6,
+            "Question": "Can you explain how polymorphism is achieved in Go?"
+        }
+        ],
+        "Hard": [
+        {
+            "SNo": 1,
+            "Question": "How do you optimize performance in a Go application?"
+        },
+        {
+            "SNo": 2,
+            "Question": "Explain the concept of reflection in Go and its use cases."
+        },
+        {
+            "SNo": 3,
+            "Question": "Discuss the implementation of a concurrent map in Go."
+        },
+        {
+            "SNo": 4,
+            "Question": "How do you manage cross-compilation in Go?"
+        }
+        ]
+    },
+    
+    "SpringBoot": {
+        "Easy": [
+        {
+            "SNo": 1,
+            "Question": "What is Spring Boot?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What are the Features of Spring Boot?"
+        },
+        {
+            "SNo": 3,
+            "Question": "Why do we prefer Spring Boot over Spring?"
+        },
+        {
+            "SNo": 4,
+            "Question": "How does a spring application get started?"
+        }
+        ],
+        "Medium": [
+        {
+            "SNo": 1,
+            "Question": "What are the basic Spring Boot Annotations?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What is Spring Boot dependency management?"
+        },
+        {
+            "SNo": 3,
+            "Question": "Is it possible to change the port of the embedded Tomcat server in Spring Boot?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What is the starter dependency of the Spring boot module?"
+        },
+        {
+            "SNo": 5,
+            "Question": "What is the default port of Tomcat in Spring Boot?"
+        },
+        {
+            "SNo": 6,
+            "Question": "Can we disable the default web server in the Spring Boot application?"
+        },
+        {
+            "SNo": 7,
+            "Question": "Difference between @Controller and @RestController"
+        }
+        ],
+        "Hard": [
+        {
+            "SNo": 1,
+            "Question": "What is Spring Boot Actuator?"
+        },
+        {
+            "SNo": 2,
+            "Question": "How to enable Actuator in the Spring Boot application?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What are the @RequestMapping and @RestController annotations in Spring Boot used for?"
+        },
+        {
+            "SNo": 4,
+            "Question": "How to get the list of all the beans in your Spring Boot application?"
+        }
+        ]
+    
+    }
+      
+      
+      
+  }
+  

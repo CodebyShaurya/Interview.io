@@ -1,0 +1,411 @@
+{
+    "DSA": {
+      "Easy": [
+        {
+          "SNo": 1,
+          "Question": "Explain the process behind storing a variable in memory."
+        },
+        {
+          "SNo": 2,
+          "Question": "What are Data Structures?"
+        },
+        {
+          "SNo": 3,
+          "Question": "What is a stack data structure? What are the applications of stack?"
+        },
+        {
+          "SNo": 4,
+          "Question": "What are different operations available in stack data structure?"
+        }
+      ],
+      "Medium": [
+        {
+          "SNo": 1,
+          "Question": "How can one determine the address of a randomly selected element in a 2D array given its base address?"
+        },
+        {
+          "SNo": 2,
+          "Question": "Define a doubly linked list."
+        },
+        {
+          "SNo": 3,
+          "Question": "Which pointer type should be used in C when creating a heterogeneous linked list?"
+        },
+        {
+          "SNo": 4,
+          "Question": "What are the disadvantages of using an array to build a queue?"
+        },
+        {
+          "SNo": 5,
+          "Question": "What kinds of situations allow for the insertion of elements into a circular queue?"
+        },
+        {
+          "SNo": 6,
+          "Question": "What is a Double-ended Queue, or Dequeue?"
+        },
+        {
+          "SNo": 7,
+          "Question": "What does a data structure's hashmap mean?"
+        }
+      ],
+      "Hard": [
+        {
+          "SNo": 1,
+          "Question": "What distinguishes the Depth First Search from the Breadth First Search?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What are the benefits of Binary Search in comparison to Linear Search?"
+        },
+        {
+          "SNo": 3,
+          "Question": "Describe the distinction between VOID and NULL."
+        },
+        {
+          "SNo": 4,
+          "Question": "Explain the meaning of a B-tree data structure."
+        }
+      ]
+    },
+    "DB": {
+      "Easy": [
+        {
+          "SNo": 1,
+          "Question": "Explain the concept of a database schema."
+        },
+        {
+          "SNo": 2,
+          "Question": "What is the difference between logical and physical database design?"
+        },
+        {
+          "SNo": 3,
+          "Question": "Describe the three levels of data abstraction in a DBMS."
+        },
+        {
+          "SNo": 4,
+          "Question": "What is an Entity-Relationship (ER) model?"
+        }
+      ],
+      "Medium": [
+        {
+          "SNo": 1,
+          "Question": "What are the different normal forms, and why are they used?"
+        },
+        {
+          "SNo": 2,
+          "Question": "What is SQL, and what are its main components?"
+        },
+        {
+          "SNo": 3,
+          "Question": "Explain the difference between DDL, DML, and DCL in SQL."
+        },
+        {
+          "SNo": 4,
+          "Question": "What is a subquery, and when would you use one?"
+        },
+        {
+          "SNo": 5,
+          "Question": "Explain the ACID properties of a transaction."
+        },
+        {
+          "SNo": 6,
+          "Question": "Describe the difference between optimistic and pessimistic locking."
+        },
+        {
+          "SNo": 7,
+          "Question": "What are deadlocks, and how can they be avoided?"
+        }
+      ],
+      "Hard": [
+        {
+          "SNo": 1,
+          "Question": "What is a two-phase commit?"
+        },
+        {
+          "SNo": 2,
+          "Question": "Describe the role of a transaction log in a DBMS."
+        },
+        {
+          "SNo": 3,
+          "Question": "How does a database maintain data integrity during transactions?"
+        },
+        {
+          "SNo": 4,
+          "Question": "Explain the concept of transaction isolation levels."
+        }
+      ]
+    },
+    "OperatingSystem": {
+        "Easy": [
+        {
+            "SNo": 1,
+            "Question": "What do you mean by an operating system?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What is IPC? What are the different IPC mechanisms?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What are the benefits of a multiprocessor system?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What is RAID structure in OS? What are the different levels of RAID configuration?"
+        }
+        ],
+        "Medium": [
+        {
+            "SNo": 1,
+            "Question": "What is thrashing in OS?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What do you mean by asymmetric clustering?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What is the difference between multitasking and multiprocessing OS?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What do you mean by Sockets in OS?"
+        },
+        {
+            "SNo": 5,
+            "Question": "Explain zombie process?"
+        },
+        {
+            "SNo": 6,
+            "Question": "What is starvation and aging in OS?"
+        },
+        {
+            "SNo": 7,
+            "Question": "What do you mean by cascading termination?"
+        }
+        ],
+        "Hard": [
+        {
+            "SNo": 1,
+            "Question": "What is Kernel and write its main functions?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What do you mean by Semaphore in OS? Why is it used?"
+        },
+        {
+            "SNo": 3,
+            "Question": "Write difference between micro kernel and monolithic kernel?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What is difference between Kernel and OS?"
+        }
+        ]
+    },
+    "ComputerNetwork": {
+        "Easy": [
+        {
+            "SNo": 1,
+            "Question": "What do you mean by network topology?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What is the criteria to check the network reliability?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What makes a network effective and efficient?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What is DNS?"
+        }
+        ],
+        "Medium": [
+        {
+            "SNo": 1,
+            "Question": "What is NIC?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What is the meaning of 10Base-T?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What are the different types of networks?"
+        },
+        {
+            "SNo": 4,
+            "Question": "How many layers are in OSI reference model?"
+        },
+        {
+            "SNo": 5,
+            "Question": "What is RIP?"
+        },
+        {
+            "SNo": 6,
+            "Question": "What is the difference between TCP/IP model and the OSI model?"
+        },
+        {
+            "SNo": 7,
+            "Question": "What is the difference between domain and workgroup?"
+        }
+        ],
+        "Hard": [
+        {
+            "SNo": 1,
+            "Question": "What is the ARP protocol?"
+        },
+        {
+            "SNo": 2,
+            "Question": "Differentiate the MAC address with the IP address."
+        },
+        {
+            "SNo": 3,
+            "Question": "Compare the hub vs switch."
+        },
+        {
+            "SNo": 4,
+            "Question": "What is the difference between the ipconfig and the ifconfig?"
+        }
+        ]
+    },
+    "OOPS": {
+        "Easy": [
+        {
+            "SNo": 1,
+            "Question": "What are some major Object Oriented Programming languages?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What are some other programming paradigms other than OOPs?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What are the main features of OOPs?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What is meant by Structured Programming?"
+        }
+        ],
+        "Medium": [
+        {
+            "SNo": 1,
+            "Question": "What is an exception?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What are the differences between class and object?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What are the key differences between class and structure?"
+        },
+        {
+            "SNo": 4,
+            "Question": "How does procedural programming be different from OOP differ?"
+        },
+        {
+            "SNo": 5,
+            "Question": "What are the characteristics of an abstract class?"
+        },
+        {
+            "SNo": 6,
+            "Question": "What is composition?"
+        },
+        {
+            "SNo": 7,
+            "Question": "What are the differences between copy constructor and assignment operator?"
+        }
+        ],
+        "Hard": [
+        {
+            "SNo": 1,
+            "Question": "What are access specifiers and what is their significance?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What is meant by static polymorphism?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What is the difference between overloading and overriding?"
+        },
+        {
+            "SNo": 4,
+            "Question": "How is an abstract class different from an interface?"
+        }
+        ]
+    },
+    "TheoryOfComputation": {
+        "Easy": [
+        {
+            "SNo": 1,
+            "Question": "What is theory of computation?"
+        },
+        {
+            "SNo": 2,
+            "Question": "Can you explain what a Turing Machine is?"
+        },
+        {
+            "SNo": 3,
+            "Question": "How can you represent a Turing machine as a function?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What are the building blocks that make up a Turing Machine?"
+        }
+        ],
+        "Medium": [
+        {
+            "SNo": 1,
+            "Question": "Can you explain what an NFA is and why they’re important?"
+        },
+        {
+            "SNo": 2,
+            "Question": "Can you explain what a DFA is and why they’re important?"
+        },
+        {
+            "SNo": 3,
+            "Question": "What’s the difference between a DFA and an NFA? Which one do you think is better?"
+        },
+        {
+            "SNo": 4,
+            "Question": "What does it mean if something is decidable or undecidable?"
+        },
+        {
+            "SNo": 5,
+            "Question": "What is the significance of the halting problem?"
+        },
+        {
+            "SNo": 6,
+            "Question": "Can you explain how to use a pushdown stack in a Turing machine?"
+        },
+        {
+            "SNo": 7,
+            "Question": "What do you know about linear bounded automata?"
+        }
+        ],
+        "Hard": [
+        {
+            "SNo": 1,
+            "Question": "What are some different types of computable functions?"
+        },
+        {
+            "SNo": 2,
+            "Question": "What are some limitations of finite state machines?"
+        },
+        {
+            "SNo": 3,
+            "Question": "Can you explain how to create a deterministic pushdown automaton?"
+        },
+        {
+            "SNo": 4,
+            "Question": "Explain the concept of NP-hardness and NP-completeness."
+        }
+        ]
+    }
+}
+  
