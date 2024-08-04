@@ -1,6 +1,5 @@
 import Nav from "../Components/Navbar";
 import HomeImg from "../assets/Screenshot_2024-07-28_195229-removebg-preview.png";
-import test from "../assets/Screenshot 2024-07-31 153828_LE_auto_x2.svg";
 import chair from "../assets/mn on thre cahir.png";
 import Khagesh from "../assets/Khagesh.jpeg";
 
