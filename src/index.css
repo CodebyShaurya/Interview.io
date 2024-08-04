@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Space Grotesk Bold";
+  src: url("./assets/fonts/SpaceGrotesk-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Space Grotesk Light";
+  src: url("./assets/fonts/SpaceGrotesk-Light.ttf");
+}
+
+@font-face {
+  font-family: "Space Grotesk Medium";
+  src: url("./assets/fonts/SpaceGrotesk-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Space Grotesk Regular";
+  src: url("./assets/fonts/SpaceGrotesk-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Space Grotesk Semibold";
+  src: url("./assets/fonts/SpaceGrotesk-SemiBold.ttf");
+}
+
 /*
   Based on TailwindCSS recommendations,
   consider using classes instead of the `@apply` directive
@@ -12,7 +37,7 @@
   @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
 */
 .cube {
-    @apply w-[200px] h-[200px] relative animate-[rotate_10s_linear_infinite];
+    @apply w-[250px] h-[250px] relative animate-[rotate_10s_linear_infinite];
     transform-style: preserve-3d;
   }
   /* img {
@@ -24,7 +49,7 @@
   
   /* Applying styles to each face */
   .box1 {
-    transform: translateZ(100px);
+    transform: translateZ(150px);
   }
   .box2 {
     @apply origin-right;
@@ -39,11 +64,11 @@
   }
   .box5 {
     @apply origin-top;
-    transform: rotateX(-90deg) translateY(-100px);
+    transform: rotateX(-90deg) translateY(-150px);
   }
   .box6 {
     @apply origin-bottom;
-    transform: rotateX(90deg) translateY(100px);
+    transform: rotateX(90deg) translateY(150px);
   }
 
   @keyframes rotate { 
