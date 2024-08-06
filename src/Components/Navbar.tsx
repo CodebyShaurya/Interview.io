@@ -1,3 +1,5 @@
+import logo from '../assets/Gemini_Generated_Image_urg4luurg4luurg4-removebg-preview.png'
+
 function Nav() {
   // const [count, setCount] = useState(0)
 
@@ -9,8 +11,8 @@ function Nav() {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8"
+            src={logo}
+            className="h-24"
             alt="Flowbite Logo"
           />
           <span className="self-center font-spacegroteskbold text-2xl font-semibold whitespace-nowrap text-transparent bg-gradient-to-l from-blue-300 to-purple-600 bg-clip-text dark:text-white">

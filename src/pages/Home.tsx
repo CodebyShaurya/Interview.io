@@ -1,6 +1,6 @@
 import Nav from "../Components/Navbar";
-import HomeImg from "../assets/Screenshot_2024-07-28_195229-removebg-preview.png";
-import chair from "../assets/mn on thre cahir.png";
+import HomeImg from "../assets/OIG4-removebg.png";
+import chair from "../assets/OIG4-removebg (1).png";
 import Khagesh from "../assets/Khagesh.jpeg";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           </button>
         </div>
         <div className="flex justify-center">
-            <img src={HomeImg} />
+            <img src={HomeImg} className="h-[500px]" />
         </div>
       </div>
 
@@ -157,7 +157,7 @@ function App() {
 
       <div className="m-20 grid grid-cols-2 ">
         <div className="flex justify-center">
-          <img src={chair} />
+          <img src={chair} className="h-96" />
         </div>
         <div>
           <div className="text-4xl font-medium text-white font-spacegroteskmedium">
