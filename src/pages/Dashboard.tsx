@@ -1,9 +1,7 @@
-// import React from 'react';
 import { useState } from 'react';
-import { FaBell, FaEnvelope, FaUserCircle } from 'react-icons/fa'; // Example icons
+import { FaBell, FaEnvelope, FaUserCircle } from 'react-icons/fa';
 
 const Dashboard = () => {
-    // State for toggling notification and email dropdowns
     const [notificationsOpen, setNotificationsOpen] = useState(false);
     const [emailsOpen, setEmailsOpen] = useState(false);
 
@@ -67,18 +65,34 @@ const Dashboard = () => {
 
                 {/* Additional Sections */}
                 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {/* Placeholder for cards */}
+                    {/* Analytics */}
                     <div className="bg-white rounded-lg shadow-lg p-6">
                         <h3 className="text-lg font-bold text-gray-800">Analytics</h3>
-                        <p className="text-sm text-gray-600">Data will be shown here</p>
+                        <ul className="text-sm text-gray-600">
+                            <li>Website Visits: 3,245</li>
+                            <li>New Signups: 112</li>
+                            <li>Conversion Rate: 4.5%</li>
+                        </ul>
                     </div>
+                    
+                    {/* Reports */}
                     <div className="bg-white rounded-lg shadow-lg p-6">
                         <h3 className="text-lg font-bold text-gray-800">Reports</h3>
-                        <p className="text-sm text-gray-600">Details of your reports</p>
+                        <ul className="text-sm text-gray-600">
+                            <li>Daily Reports Generated: 15</li>
+                            <li>Pending Reports: 4</li>
+                            <li>Archived Reports: 132</li>
+                        </ul>
                     </div>
+                    
+                    {/* Activity */}
                     <div className="bg-white rounded-lg shadow-lg p-6">
                         <h3 className="text-lg font-bold text-gray-800">Activity</h3>
-                        <p className="text-sm text-gray-600">Latest user interactions</p>
+                        <ul className="text-sm text-gray-600">
+                            <li>Logged in: 2 hours ago</li>
+                            <li>Updated Profile: Yesterday</li>
+                            <li>Reviewed Reports: 3 times this week</li>
+                        </ul>
                     </div>
                 </section>
             </main>
