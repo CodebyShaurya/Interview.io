@@ -4,7 +4,7 @@ function Nav() {
   // const [count, setCount] = useState(0)
 
   return (
-    <nav className="dark:bg-gray-900 w-full z-20 top-0 start-0   dark:border-gray-600">
+    <nav className="dark:bg-gray-900 w-full z-20 top-0 start-0   dark:border-gray-600 bg-gradient-to-r from-[#2f1d64] via-[#1b2a5c] to-[#2f1d64] text-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href=""
