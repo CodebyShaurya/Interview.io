@@ -31,61 +31,61 @@
   Based on TailwindCSS recommendations,
   consider using classes instead of the `@apply` directive
   @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
-*//*
+*/ /*
   Based on TailwindCSS recommendations,
   consider using classes instead of the `@apply` directive
   @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
 */
 .cube {
-    @apply w-[250px] h-[250px] relative animate-[rotate_10s_linear_infinite];
-    transform-style: preserve-3d;
-  }
-  /* img {
+  @apply w-[250px] h-[250px] relative animate-[rotate_10s_linear_infinite];
+  transform-style: preserve-3d;
+}
+/* img {
     @apply w-full h-full object-cover;
   } */
-  .box {
-    @apply w-full h-full absolute opacity-90 left-0 top-0;
-  }
-  
-  /* Applying styles to each face */
-  .box1 {
-    transform: translateZ(150px);
-  }
-  .box2 {
-    @apply origin-right;
-    transform: rotateY(90deg) translateX(100px);
-  }
-  .box3 {
-    transform: rotateY(180deg) translateZ(100px);
-  }
-  .box4 {
-    @apply origin-left;
-    transform: rotateY(-90deg) translateX(-100px);
-  }
-  .box5 {
-    @apply origin-top;
-    transform: rotateX(-90deg) translateY(-150px);
-  }
-  .box6 {
-    @apply origin-bottom;
-    transform: rotateX(90deg) translateY(150px);
-  }
+.box {
+  @apply w-full h-full absolute opacity-90 left-0 top-0;
+}
 
-  @keyframes rotate { 
-    0%, 
-    100% { 
-        transform: rotate(0deg); 
-    } 
-    20% { 
-        transform: rotateY(90deg) rotateZ(90deg); 
-    } 
-    40% { 
-        transform: rotateY(180deg) rotateZ(-90deg); 
-    } 
-    60% { 
-        transform: rotateY(270deg) rotateZ(90deg); 
-    } 
-    80% { 
-        transform: rotateY(360deg) rotateZ(-90deg); 
-    } 
+/* Applying styles to each face */
+.box1 {
+  transform: translateZ(150px);
+}
+.box2 {
+  @apply origin-right;
+  transform: rotateY(90deg) translateX(100px);
+}
+.box3 {
+  transform: rotateY(180deg) translateZ(100px);
+}
+.box4 {
+  @apply origin-left;
+  transform: rotateY(-90deg) translateX(-100px);
+}
+.box5 {
+  @apply origin-top;
+  transform: rotateX(-90deg) translateY(-150px);
+}
+.box6 {
+  @apply origin-bottom;
+  transform: rotateX(90deg) translateY(150px);
+}
+
+@keyframes rotate {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotateY(90deg) rotateZ(90deg);
+  }
+  40% {
+    transform: rotateY(180deg) rotateZ(-90deg);
+  }
+  60% {
+    transform: rotateY(270deg) rotateZ(90deg);
+  }
+  80% {
+    transform: rotateY(360deg) rotateZ(-90deg);
+  }
 }

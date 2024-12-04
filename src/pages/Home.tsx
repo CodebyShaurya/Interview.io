@@ -2,12 +2,12 @@ import Nav from "../Components/Navbar";
 import HomeImg from "../assets/OIG4-removebg.png";
 import chair from "../assets/OIG4-removebg (1).png";
 import Khagesh from "../assets/Khagesh.jpeg";
-import logo from '../assets/Gemini_Generated_Image_urg4luurg4luurg4-removebg-preview.png'
+import logo from "../assets/Gemini_Generated_Image_urg4luurg4luurg4-removebg-preview.png";
 
 function App() {
   return (
     <div className="bg-gradient-to-r from-[#2f1d64] via-[#1b2a5c] to-[#2f1d64] ...">
-      {/* <Nav /> */}
+      <Nav />
       <div className="flex gap-10 p-24 items-center justify-around">
         <div className="w-1/2">
           <div className="text-6xl font-semibold my-10 text-white font-spacegroteskbold">
@@ -24,7 +24,7 @@ function App() {
           </button>
         </div>
         <div className="flex justify-center">
-            <img src={HomeImg} className="h-[500px]" />
+          <img src={HomeImg} className="h-[500px]" />
         </div>
       </div>
 
@@ -431,9 +431,12 @@ function App() {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
               <div className="text-slate-300 flex items-center space-x-3 rtl:space-x-reverse">
-              
-                <img  className="h-24 text-white" src={logo} alt='Interview.IO'/>
-                <span className="self-center font-spacegroteskbold text-2xl font-semibold whitespace-nowrap text-transparent bg-gradient-to-l from-blue-300 to-purple-600 bg-clip-text dark:text-white">
+                <img
+                  className="h-24 text-white"
+                  src={logo}
+                  alt="Interview.IO"
+                />
+                <span className="self-center font-spacegroteskbold text-2xl font-semibold whitespace-nowrap text-transparent bg-gradient-to-l from-blue-300 to-purple-600 bg-clip-text text-white">
                   Interview.io
                 </span>
               </div>
