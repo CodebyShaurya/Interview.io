@@ -72,10 +72,10 @@ function Nav() {
             </li>
             <li>
               <a
-                href="#"
+                href="/dashboard"
                 className="block py-2 font-spacegroteskmedium px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
               >
-                Services
+                Dashboard
               </a>
             </li>
             <li>
