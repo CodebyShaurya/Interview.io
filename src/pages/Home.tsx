@@ -1,4 +1,4 @@
-import Nav from "../Components/Navbar";
+// import Nav from "../Components/Navbar";
 import HomeImg from "../assets/OIG4-removebg.png";
 import chair from "../assets/OIG4-removebg (1).png";
 import Khagesh from "../assets/Khagesh.jpeg";
@@ -7,7 +7,7 @@ import logo from "../assets/Gemini_Generated_Image_urg4luurg4luurg4-removebg-pre
 function App() {
   return (
     <div className="bg-gradient-to-r from-[#2f1d64] via-[#1b2a5c] to-[#2f1d64] ...">
-      <Nav />
+      {/* <Nav /> */}
       <div className="flex gap-10 p-24 items-center justify-around">
         <div className="w-1/2">
           <div className="text-6xl font-semibold my-10 text-white font-spacegroteskbold">
